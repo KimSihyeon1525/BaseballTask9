@@ -15,6 +15,6 @@ class BASEBALLTASK9_API UResultData : public UObject
 	GENERATED_BODY()
 	
 public:
-	FString ResultString;
+	FString ResultString;		//결과 메시지를 담는 문자열 변수
 
 };

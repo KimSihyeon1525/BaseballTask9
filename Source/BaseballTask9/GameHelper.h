@@ -15,7 +15,7 @@ class BASEBALLTASK9_API UGameHelper : public UBlueprintFunctionLibrary
 	GENERATED_BODY()
 	
 public:
-	static FString GenerateRandomNumber();
-	static FString CheckGuess(const FString& Guess, const FString& Answer);
+	static FString GenerateRandomNumber();		//겹치지 안는 랜덤 3자리 숫자 생성
+	static FString CheckGuess(const FString& Guess, const FString& Answer);		//입력 확인후 판정
 
 };
